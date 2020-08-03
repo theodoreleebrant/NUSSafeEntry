@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context=".MainActivity"
+    android:focusable="true">
+
+    <Button
+        android:id="@+id/SaporeButton"
+        android:onClick="sapore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="59dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/sapore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/HongkongButton"
+        app:layout_constraintTop_toBottomOf="@+id/finefoodsButton" />
+
+    <Button
+        android:id="@+id/HongkongButton"
+        android:onClick="hongkong"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="28dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/_2359"
+        app:layout_constraintEnd_toStartOf="@+id/SaporeButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FoodcliqueButton" />
+
+    <Button
+        android:id="@+id/FairpriceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="100dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="fairprice"
+        android:text="@string/fairprice"
+        app:layout_constraintEnd_toStartOf="@+id/CheersButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/CheersButton"
+        android:onClick="cheers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="80dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/cheers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/FairpriceButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="152dp"
+        android:fontFamily="sans-serif-black"
+        android:text="UTown Shites"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/FoodcliqueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="foodclique"
+        android:text="@string/foodclique"
+        app:layout_constraintEnd_toStartOf="@+id/finefoodsButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FairpriceButton" />
+
+    <Button
+        android:id="@+id/finefoodsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="73dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="finefoods"
+        android:text="Finefood"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/FoodcliqueButton"
+        app:layout_constraintTop_toBottomOf="@+id/CheersButton" />
+
+    <Button
+        android:id="@+id/UdonButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="33dp"
+        android:clickable="true"
+        android:onClick="udon"
+        android:focusable="true"
+        android:text="@string/udon"
+        app:layout_constraintBottom_toTopOf="@+id/SubwayButton"
+        app:layout_constraintEnd_toStartOf="@+id/HwangsButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HongkongButton" />
+
+    <Button
+        android:id="@+id/HwangsButton"
+        android:layout_width="88dp"
+        android:onClick="hwangs"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/hwangs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/UdonButton"
+        app:layout_constraintTop_toBottomOf="@+id/SaporeButton" />
+
+    <Button
+        android:id="@+id/SubwayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="33dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="subway"
+        android:text="@string/subway"
+        app:layout_constraintEnd_toStartOf="@+id/WaacowButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UdonButton" />
+
+    <Button
+        android:id="@+id/WaacowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="waacow"
+        android:text="@string/waacow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SubwayButton"
+        app:layout_constraintTop_toBottomOf="@+id/HwangsButton" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/supersnacks"
+        app:layout_constraintEnd_toStartOf="@+id/button10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SubwayButton" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="48dp"
+        android:text="@string/hair_destination"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button9"
+        app:layout_constraintTop_toBottomOf="@+id/WaacowButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

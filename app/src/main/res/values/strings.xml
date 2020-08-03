@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">UTown Entry Pass</string>
+    <string name="finefoods">finefoods</string>
+    <string name="foodclique">foodclique</string>
+    <string name="sapore">Sapore</string>
+    <string name="cheers">Cheers</string>
+    <string name="groceries">Groceries</string>
+    <string name="fairprice">FairPrice</string>
+    <string name="food">Food</string>
+    <string name="_2359">2359</string>
+    <string name="subway">subway</string>
+    <string name="supersnacks">SuperSnacks</string>
+    <string name="udon">udon</string>
+    <string name="hwangs">hwangs</string>
+    <string name="others">Others</string>
+    <string name="hair_destination">Hair Destination</string>
+    <string name="waacow">WaaCow</string>
+</resources>
