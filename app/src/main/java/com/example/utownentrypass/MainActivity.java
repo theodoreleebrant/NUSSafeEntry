@@ -66,5 +66,8 @@ public class MainActivity extends AppCompatActivity {
         goToUrl ( "https://temperaturepass.ndi-api.gov.sg/login/PROD-201016533D-974505-NUS2359BYLIJI-SE");
     }
 
+    public void supersnacks(View view) {
+        goToUrl("https://temperaturepass.ndi-api.gov.sg/login/PROD-T07LL0796L-657942-NUSSUPERSNACKSUTOWN-SE");
+    }
 }
 
